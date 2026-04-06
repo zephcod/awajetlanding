@@ -36,8 +36,8 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  lint: {
-     ignoreDuringBuilds: true,
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 };
 

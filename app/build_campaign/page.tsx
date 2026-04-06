@@ -1,7 +1,7 @@
 import { type Metadata } from "next"
 import { cookies } from "next/headers"
 import Link from "next/link"
-import { env } from "@/env.mjs"
+// import { env } from "@/env.mjs"
 
 import { productCategories } from "@/config/products"
 import { cn } from "@/app/utils/utils"
@@ -12,11 +12,11 @@ import { Shell } from "@/components/shells/shell"
 import { getCartItemsAction } from "@/app/_actions/cart"
 import { getProductsAction } from "@/app/_actions/product"
 
-export const metadata: Metadata = {
-  metadataBase: new URL(env.NEXT_PUBLIC_APP_URL),
-  title: "Build a Board",
-  description: "Select the components for your board",
-}
+// export const metadata: Metadata = {
+//   metadataBase: new URL(env.NEXT_PUBLIC_APP_URL),
+//   title: "Build a Board",
+//   description: "Select the components for your board",
+// }
 
 interface BuildABoadPageProps {
   searchParams: {
@@ -46,9 +46,9 @@ export default async function BuildABoardPage({
   const pageCount = Math.ceil(productsTransaction.total / limit)
 
   // Get cart items
-  const cartId = cookies().get("cartId")?.value
+  // const cartId = cookies().get("cartId")?.value
 
-  const cartItems = await getCartItemsAction({ cartId: Number(cartId) })
+  // const cartItems = await getCartItemsAction({ cartId: Number(cartId) })
 
   return (
     <Shell className="gap-4 mt-14">
@@ -57,7 +57,7 @@ export default async function BuildABoardPage({
         description="Select the components for your campaign"
         size="sm"
       />
-      <div className="sticky top-14 z-30 w-full shrink-0 overflow-hidden bg-background/80 pb-4 pt-6 rounded-lg shadow-md sm:backdrop-blur-md">
+      {/* <div className="sticky top-14 z-30 w-full shrink-0 overflow-hidden bg-background/80 pb-4 pt-6 rounded-lg shadow-md sm:backdrop-blur-md">
         <div className="grid place-items-center overflow-x-auto">
           <div className="inline-flex w-fit items-center rounded border bg-background p-1 text-muted-foreground shadow-2xl">
             {productCategories[0]?.subcategories.map((subcategory) => (
@@ -86,13 +86,13 @@ export default async function BuildABoardPage({
             ))}
           </div>
         </div>
-      </div>
-      <BoardBuilder
+      </div> */}
+      {/* <BoardBuilder
         products={productsTransaction.items}
         pageCount={pageCount}
         subcategory={activeSubcategory}
         cartItems={cartItems ?? []}
-      />
+      /> */}
     </Shell>
   )
 }

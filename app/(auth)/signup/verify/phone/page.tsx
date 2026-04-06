@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/UI/card"
 import { Shell } from "@/components/shells/shell"
-import { VerifyPhoneForm } from "@/components/forms/verify_phone_form"
+// import { VerifyPhoneForm } from "@/components/forms/verify_phone_form"
 
 
 export default function ResetPasswordStep2Page() {
@@ -30,7 +30,7 @@ export default function ResetPasswordStep2Page() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <VerifyPhoneForm/>
+          {/* <VerifyPhoneForm/> */}
         </CardContent>
       </Card>
     </Shell>

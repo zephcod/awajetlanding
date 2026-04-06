@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/UI/card"
-import { ResetPasswordStep2Form } from "@/components/forms/reset_password_form_step2"
+// import { ResetPasswordStep2Form } from "@/components/forms/reset_password_form_step2"
 import { Shell } from "@/components/shells/shell"
 
 
@@ -30,7 +30,7 @@ export default function ResetPasswordStep2Page() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <ResetPasswordStep2Form user={userId??""} sec={secret??""} />
+          {/* <ResetPasswordStep2Form user={userId??""} sec={secret??""} /> */}
         </CardContent>
       </Card>
     </Shell>

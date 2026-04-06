@@ -1,6 +1,6 @@
 import { type Metadata } from "next"
 import { solutions } from "@/db/schema"
-import { env } from "@/env.mjs"
+// import { env } from "@/env.mjs"
 
 import { Header } from "@/components/header"
 import { Products } from "@/components/products"
@@ -11,11 +11,11 @@ import { getStoresAction } from "@/app/_actions/store"
 // Running out of edge function execution units on vercel free plan
 // export const runtime = "edge"
 
-export const metadata: Metadata = {
-  metadataBase: new URL(env.NEXT_PUBLIC_APP_URL),
-  title: "Solutions | Awaj AI",
-  description: 'Assorted solutions from Awaj AI, the agency, and related platforms',
-}
+// export const metadata: Metadata = {
+//   metadataBase: new URL(env.NEXT_PUBLIC_APP_URL),
+//   title: "Solutions | Awaj AI",
+//   description: 'Assorted solutions from Awaj AI, the agency, and related platforms',
+// }
 
 interface ProductsPageProps {
   searchParams: {
