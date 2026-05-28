@@ -4,8 +4,8 @@ import React from 'react'
 
 
 export const metadata: Metadata = {
-  title: 'Awaj AI Gallery',
-  description: 'Curated gallery of successful projects under Awaj AI software, the agency, and related platforms',
+  title: 'Awaj ET Gallery',
+  description: 'Curated gallery of successful projects under Awaj ET software, the agency, and related platforms',
 }
 
 

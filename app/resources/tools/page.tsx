@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 import UnderConstruction from '@/components/under_construction';
 
 export const metadata: Metadata = {
-  title: 'Awaj AI Tools',
-  description: 'Awaj AI tools and solutions for digital marketing and sales.',
+  title: 'Awaj ET Tools',
+  description: 'Awaj ET tools and solutions for digital marketing and sales.',
 }
 
 

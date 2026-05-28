@@ -34,7 +34,7 @@ const Chat: FC = () => {
         <AccordionTrigger className='px-4 border-b border-accent'>
           <div className='w-full flex justify-start items-center text-muted-foreground'>
             <div className='flex flex-row gap-3 items-center text-sm'>
-              <Image className='' src={Content} width={35} height={35} alt='Awaj AI Neil Bot Profile Picture' />
+              <Image className='' src={Content} width={35} height={35} alt='Awaj ET Neil Bot Profile Picture' />
               <div className='flex flex-col items-start'>
                 <p className='text-xs'>Get help from</p>
                 {/* <p className='w-2 h-2 rounded-full bg-green-500' /> */}
@@ -60,7 +60,7 @@ const Chat: FC = () => {
           <div className='w-full flex justify-start items-center text-muted-foreground'>
             {/* <Icons.chevronLeft className='h-4 w-4 mr-4' /> */}
             <div className='flex flex-row gap-3 items-center text-sm'>
-              <Image className='' src={Content} width={35} height={35} alt='Awaj AI Neil Bot Profile Picture' />
+              <Image className='' src={Content} width={35} height={35} alt='Awaj ET Neil Bot Profile Picture' />
               {/* <div className='flex flex-col items-start'>
                 <p className='text-xs'>Get help from</p>
                 <p className='font-medium'>Awaj Bot</p>

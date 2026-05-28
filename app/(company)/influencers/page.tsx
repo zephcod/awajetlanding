@@ -13,8 +13,8 @@ import Mission2 from "@/public/casestudy/technology.png"
 import { Icons } from "@/components/UI/icons"
 
 export const metadata: Metadata = {
-  title: 'Awaj Influencers | Awaj AI',
-  description: 'Awaj AI software, the agency, and related platforms use cases and partnerships for influencers and creators',
+  title: 'Awaj Influencers | Awaj ET',
+  description: 'Awaj ET software, the agency, and related platforms use cases and partnerships for influencers and creators',
 }
 
 
@@ -25,7 +25,7 @@ const Influencers = () => {
         <Image
           src={InfluencerBg}
           fill={true}
-          alt="awaj ai digital marketing influencers"
+          alt="awaj et digital marketing influencers"
           className={styles.img}
         />
         <div className={styles.imgText}>
@@ -38,7 +38,7 @@ const Influencers = () => {
       <div className="max-w-3xl text-muted-foreground my-10 px-2 m-auto">
         <h2 className="font-semibold text-3xl text-muted-foreground">Connecting Brands and Creators.</h2>
         <p className="mt-4 mb-2">
-        We at Awaj AI allocate significant effort into connecting brands with influencers and creators. 
+        We at Awaj ET allocate significant effort into connecting brands with influencers and creators. 
         We help brands reach their target audience through authentic and engaging content created by influencers 
         and creators who share their values and vision. We offer a range of services, including:
         </p>
@@ -96,11 +96,11 @@ const Influencers = () => {
         with influencer and creator marketing.
         </p>
         <Separator/>
-        <h2 className="font-semibold text-center mt-12 text-3xl text-muted-foreground">Awaj AI is mission driven.</h2>
+        <h2 className="font-semibold text-center mt-12 text-3xl text-muted-foreground">Awaj ET is mission driven.</h2>
       </div>
       <div className='flex flex-col md:flex-row max-w-5xl px-2 m-auto gap-16'>
         <div className='flex-1 flex flex-col gap-4 items-center'>
-          <Image src={Mission1} width={200} height={200} alt='Awaj AI Case Studies Icon'/>
+          <Image src={Mission1} width={200} height={200} alt='Awaj ET Case Studies Icon'/>
           <div>
             <h2 className="font-semibold text-3xl text-muted-foreground">Optimization through innovation.</h2>
             <p className='text-muted-foreground py-3'>
@@ -112,7 +112,7 @@ const Influencers = () => {
         <Separator/>
         </div>
         <div className='flex-1 flex flex-col gap-4 items-center'>
-          <Image src={Mission2} width={200} height={200} alt='Awaj AI Case Studies Icon'/>
+          <Image src={Mission2} width={200} height={200} alt='Awaj ET Case Studies Icon'/>
           <div>
             <h2 className="font-semibold text-3xl text-muted-foreground">Marketing and sales for SMEs.</h2>
             <p className='text-muted-foreground py-3'>

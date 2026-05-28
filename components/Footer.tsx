@@ -26,6 +26,48 @@ const col1 = [
     title:"Pricing",
     url:"/pricing",
   },
+  // {
+  //   id:"5",
+  //   title:"Privacy Policy",
+  //   url:"/privacy",
+  // },
+  // {
+  //   id:"6",
+  //   title:"Terms & Conditions",
+  //   url:"/terms",
+  // }
+];
+const col2 = [
+  // {
+  //   id:"1",
+  //   title:"Downloads",
+  //   url:"/resources/downloads",
+  // },
+  // {
+  //   id:"2",
+  //   title:"Case Studies",
+  //   url:"/resources/awaj_case_studies",
+  // },
+  // {
+  //   id:"3",
+  //   title:"Gallery",
+  //   url:"/resources/awaj_gallery",
+  // },
+  // {
+  //   id:"4",
+  //   title:"Content Marketing",
+  //   url:"/resources/learning/content",
+  // },
+  // {
+  //   id:"5",
+  //   title:"Social Media Ad",
+  //   url:"/resources/learning/social-media",
+  // },
+  // {
+  //   id:"6",
+  //   title:"Awaj ET Tools",
+  //   url:"/resources/tools",
+  // },
   {
     id:"5",
     title:"Privacy Policy",
@@ -37,64 +79,32 @@ const col1 = [
     url:"/terms",
   }
 ];
-const col2 = [
-  {
-    id:"1",
-    title:"Downloads",
-    url:"/resources/downloads",
-  },
-  {
-    id:"2",
-    title:"Case Studies",
-    url:"/resources/awaj_case_studies",
-  },
-  {
-    id:"3",
-    title:"Gallery",
-    url:"/resources/awaj_gallery",
-  },
-  {
-    id:"4",
-    title:"Content Marketing",
-    url:"/resources/learning/content",
-  },
-  {
-    id:"5",
-    title:"Social Media Ad",
-    url:"/resources/learning/social-media",
-  },
-  {
-    id:"6",
-    title:"Awaj AI Tools",
-    url:"/resources/tools",
-  }
-];
 const col3 = [
-  {
-    id:"1",
-    title:"Blogs",
-    url:"/blog",
-  },
+  // {
+  //   id:"1",
+  //   title:"Blogs",
+  //   url:"/blog",
+  // },
   {
     id:"2",
     title:"Overview",
     url:"/overview",
   },
-  {
-    id:"3",
-    title:"How It Works",
-    url:"/resources/how_it_works",
-  },
+  // {
+  //   id:"3",
+  //   title:"How It Works",
+  //   url:"/resources/how_it_works",
+  // },
   {
     id:"4",
     title:"Getting Started",
     url:"/getting_started",
   },
-  {
-    id:"5",
-    title:"Webinars",
-    url:"/webinars",
-  },
+  // {
+  //   id:"5",
+  //   title:"Webinars",
+  //   url:"/webinars",
+  // },
   {
     id:"6",
     title:"Help Center",
@@ -172,7 +182,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className='text-sm text-center font-light py-2 '>
-              ©2023 Ace Digital Advert PLC. All rights reserved.
+              ©2026 Ace Digital Advert PLC. All rights reserved.
             </p>
           </div>
           <div className='flex flex-col justify-between items-center gap-2'>

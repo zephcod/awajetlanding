@@ -19,7 +19,7 @@ const ValueProp = () => {
                 </h3>
               </div>
               <p className="pb-4 text-muted-foreground">
-              Awaj AI heavily relies on data-driven insights and analytics to measure and 
+              Awaj ET heavily relies on data-driven insights and analytics to measure and 
               optimize your digital marketing performance and ROAS.
               </p>
             </div>

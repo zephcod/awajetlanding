@@ -26,8 +26,8 @@ import Ela from '@/public/profile/ela.jpg'
 import Abel from '@/public/profile/abel.jpg'
 
 export const metadata: Metadata = {
-  title: 'Teams and Career Opportunities | Awaj AI ',
-  description: 'Career opportunities and the team behind Awaj AI, the agency, and related platforms',
+  title: 'Teams and Career Opportunities | Awaj ET ',
+  description: 'Career opportunities and the team behind Awaj ET, the agency, and related platforms',
 }
 
 const industries = [
@@ -113,7 +113,7 @@ const Team = () => {
         <Image
           src={Banner}
           fill={true}
-          alt="About Awaj AI - Creative Banner"
+          alt="About Awaj ET - Creative Banner"
           className={styles.img}
         />
         <div className={styles.imgText}>
@@ -167,7 +167,7 @@ const Team = () => {
       </div>
       <div className='flex flex-col md:flex-row max-w-5xl px-2 m-auto gap-16'>
         <div className='flex-1 flex flex-col gap-4 items-center'>
-          <Image src={Mission2} width={200} height={200} alt='Awaj AI Case Studies Icon'/>
+          <Image src={Mission2} width={200} height={200} alt='Awaj ET Case Studies Icon'/>
           <div>
             <h2 className="font-semibold text-3xl text-muted-foreground">Technical Excellence.</h2>
             <p className='text-muted-foreground py-3'>
@@ -179,7 +179,7 @@ const Team = () => {
         <Separator/>
         </div>
         <div className='flex-1 flex flex-col gap-4 items-center'>
-          <Image src={Mission1} width={200} height={200} alt='Awaj AI Case Studies Icon'/>
+          <Image src={Mission1} width={200} height={200} alt='Awaj ET Case Studies Icon'/>
           <div>
             <h2 className="font-semibold text-3xl text-muted-foreground">Greatest Improvisers.</h2>
             <p className='text-muted-foreground py-3'>

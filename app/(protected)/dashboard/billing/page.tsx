@@ -3,7 +3,7 @@ import UnderConstruction from "@/components/under_construction"
 
 export const metadata: Metadata = {
 //   metadataBase: new URL(env.NEXT_PUBLIC_APP_URL),
-  title: "Orders | Awaj AI",
+  title: "Orders | Awaj ET",
   description: "Manage your billing and subscription",
 }
 

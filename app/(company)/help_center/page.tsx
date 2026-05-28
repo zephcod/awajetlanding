@@ -10,8 +10,8 @@ import Faqs from "@/components/faq/faqs"
 import Content from "@/public/character/1882.png"
 
 export const metadata: Metadata = {
-  title: 'Help Center | Awaj AI',
-  description: 'Assorted helpful resources and support portal for Awaj AI software, the agency, and related platforms',
+  title: 'Help Center | Awaj ET',
+  description: 'Assorted helpful resources and support portal for Awaj ET software, the agency, and related platforms',
 }
 
 
@@ -22,7 +22,7 @@ const Help = () => {
         <Image
           src={HelpBg}
           fill={true}
-          alt="awaj ai help center"
+          alt="awaj et help center"
           className={styles.img}
         />
         <div className={styles.imgText}>
@@ -163,7 +163,7 @@ const Help = () => {
       <h2 className="font-semibold text-3xl text-muted-foreground">Contact Customer Support</h2>
         <p className="mt-4 mb-10">
           If you have any further questions or need assistance with anything, 
-          please do not hesitate to contact us. We are always happy to help. Thank you for choosing Awaj AI!
+          please do not hesitate to contact us. We are always happy to help. Thank you for choosing Awaj ET!
         </p>
         <ReportAnIssue/>
       </div>

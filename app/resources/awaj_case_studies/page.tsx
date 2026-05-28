@@ -25,8 +25,8 @@ import Faqs from '@/components/faq/faqs'
 
 
 export const metadata: Metadata = {
-  title: 'Awaj AI case studies',
-  description: 'Marketing, advertising and sales project done by awaj ai digital agency',
+  title: 'Awaj ET case studies',
+  description: 'Marketing, advertising and sales project done by awaj et digital agency',
 }
 
 const industries = [
@@ -128,7 +128,7 @@ const Cases = () => {
     <div className='w-full'>
     <div className={styles.container}>
       <h1 className="py-6 text-3xl text-center text-muted-foreground font-bold leading-[1.15] lg:text-4xl">
-        Awaj AI Case Studies 
+        Awaj ET Case Studies 
       </h1>
       <div className={styles.headline1_canvas}>
         <div className={'flex flex-col md:flex-row justify-evenly max-w-4xl items-center'}>

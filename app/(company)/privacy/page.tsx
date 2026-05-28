@@ -5,8 +5,8 @@ import { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Awaj AI',
-  description: 'Brief summary of key privacy policies about Awaj AI, the agency, and related platforms',
+  title: 'Privacy Policy | Awaj ET',
+  description: 'Brief summary of key privacy policies about Awaj ET, the agency, and related platforms',
 }
 
 async function Privacy () {
@@ -16,7 +16,7 @@ async function Privacy () {
       <h1 className=' text-4xl font-bold'>PRIVACY POLICY</h1>
       <p className='font-bold mt-3'>Last updated December 05, 2023</p>
       <br />
-      <p>This privacy notice for Awaj AI | ACE Digital Advert PLC {'("we," "us," or "our")'}, 
+      <p>This privacy notice for Awaj ET | ACE Digital Advert PLC {'("we," "us," or "our")'}, 
       describes how and why we might collect, store, use, and/or share {'("process")'} 
       your information when you use our services {'("Services")'}, such as when you:</p>
       <br />

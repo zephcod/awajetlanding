@@ -27,7 +27,7 @@ export const storeSubscriptionPlans: SubscriptionPlan[] = [
     features: 
     [
       "All essential features included", 
-      "Awaj AI Meda free access",
+      "Awaj ET Meda free access",
       "Ad targeting strategy", 
       "SEO backlink building",
       "SMS automation", 

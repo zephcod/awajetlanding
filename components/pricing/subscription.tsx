@@ -92,7 +92,7 @@ export default function Subscriptions(){
           title='📈 Business' 
           id={2} 
           feature1='All essential features included'
-          feature2='Awaj AI Meda free access'
+          feature2='Awaj ET Meda free access'
           feature3='Ad targeting strategy'
           feature4='SEO backlink building'
           feature5='SMS automation'

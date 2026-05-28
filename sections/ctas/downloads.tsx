@@ -15,9 +15,9 @@ const DownloadSection = () => {
                         <Icons.downlaod className='h-8 w-8 '/>
                     </Link>
                     <h3 className='text-2xl lg:text-3xl font-bold leading-[1.15]'>Download Awaj
-                    <span className='text-primary'>{' '}AI{" "}</span></h3>
+                    <span className='text-primary'>{' '}ET{" "}</span></h3>
                 </div>
-                <p className='px-4'>Install Awaj AI across all of your compatible systems. 
+                <p className='px-4'>Install Awaj ET across all of your compatible systems. 
                 Whether you&apos;re in the office or you&apos;re out and about - 
                 Awaj is ready whenever, and wherever, you are!</p>
                 <Link href={'/resources/downloads'} className=' font-semibold hover:underline'>
@@ -28,7 +28,7 @@ const DownloadSection = () => {
                 </Link>
             </div>
             <div className=''>
-                <Image src={Content} width={300} height={300} alt='Awaj AI Downloads Icon'/>
+                <Image src={Content} width={300} height={300} alt='Awaj ET Downloads Icon'/>
             </div>
         </div>
     </div>

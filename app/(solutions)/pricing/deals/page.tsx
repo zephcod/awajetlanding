@@ -15,8 +15,8 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/comp
 import DealsCTA from '@/components/carousels/deals-cta'
 
 export const metadata: Metadata = {
-  title: 'Awaj AI Deals',
-  description: 'Awaj AI Digital Marketing and Advertising Agency',
+  title: 'Awaj ET Deals',
+  description: 'Awaj ET Digital Marketing and Advertising Agency',
 }
 
 interface ToolTipProps {
@@ -57,7 +57,7 @@ const Deals = () => {
             <p>The offers include everything needed to create and manage a successful online campaign with guaranteed results. </p>
           </div>
           </div>
-          <Image src={Content} alt='awaj ai bundled deals' placeholder='blur' width={400}/>
+          <Image src={Content} alt='awaj ET bundled deals' placeholder='blur' width={400}/>
         </div>
         <DealsCTA/>
         <div className='h-8'></div>
@@ -102,7 +102,7 @@ const Deals = () => {
             Don&apos;t miss this opportunity
           </h2>
           <p>
-          Take your business to the next level with Awaj AI&apos;s bundled deals. 
+          Take your business to the next level with Awaj ET&apos;s bundled deals. 
           </p>
             <div className='mt-8 relative flex flex-col md:flex-row gap-10 items-center'>
               <ScrollLink href={'#quick'}>

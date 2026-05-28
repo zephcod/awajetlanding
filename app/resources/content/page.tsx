@@ -4,7 +4,7 @@ import UnderConstruction from '@/components/under_construction'
 
 export const metadata: Metadata = {
   title: 'Awaj Contents',
-  description: 'Assorted digital resources from Awaj AI, the agency, and related platforms',
+  description: 'Assorted digital resources from Awaj ET, the agency, and related platforms',
 }
 
 

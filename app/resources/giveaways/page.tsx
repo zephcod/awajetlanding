@@ -6,8 +6,8 @@ import { CiWarning } from "react-icons/ci";
 import UnderConstruction from '@/components/under_construction';
 
 export const metadata: Metadata = {
-  title: 'Awaj AI Giveaways',
-  description: 'Giveaway contents from Awaj AI and the agency',
+  title: 'Awaj ET Giveaways',
+  description: 'Giveaway contents from Awaj ET and the agency',
 }
 
 

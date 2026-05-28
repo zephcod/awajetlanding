@@ -4,7 +4,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Getting Started',
-  description: 'Quick instructions to get you started with Awaj AI software and related platforms',
+  description: 'Quick instructions to get you started with Awaj ET software and related platforms',
 }
 const getting_started = () => {
   return (

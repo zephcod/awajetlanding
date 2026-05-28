@@ -23,7 +23,7 @@ const Contact = () => {
           <Image
             src={HelpBg}
             fill={true}
-            alt="awaj ai help center"
+            alt="awaj et help center"
             className={styles.img}
           />
           <div className={styles.imgText}>
@@ -40,7 +40,7 @@ const Contact = () => {
                   <Link href={'/resources/getting_started'} className="flex flex-row gap-4 items-center">
                     <Icons.book className="h-8 w-8"/>
                     <p className="p-1 font-semibold text-lg ">
-                      Awaj AI<br/>Resources 🡥
+                      Awaj ET<br/>Resources 🡥
                     </p>
                   </Link>
                 </div>

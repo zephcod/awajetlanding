@@ -36,7 +36,7 @@
 //                 product:"silver mela"
 //             },
 //             customization: {
-//                 title: 'Awaj AI',
+//                 title: 'Awaj ET',
 //                 description: 'from ace digital plc'
 //                 }
 //         }

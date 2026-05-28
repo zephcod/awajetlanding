@@ -3,8 +3,8 @@ import { Metadata } from 'next'
 import React from 'react'
 
 export const metadata: Metadata = {
-  title: 'Social Media - Learning | Awaj AI',
-  description: 'Social Media learning resources from Awaj AI, the agency and related platforms.',
+  title: 'Social Media - Learning | Awaj ET',
+  description: 'Social Media learning resources from Awaj ET, the agency and related platforms.',
 }
 
 const SocialMedia = () => {

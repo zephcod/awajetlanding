@@ -12,7 +12,7 @@ export const siteConfig = {
   description:
     "All in one digital marketing and sales platform with everything included to boost your ad campaigns.",
   url: "https://www.awajet.com",
-  ogImage: 'https://cloud.appwrite.io/v1/storage/buckets/650d2f3abd9c8148bda2/files/650d2ffc5182a242dd32/view?project=6504c902cef3dc9b138c&mode=admin',
+  ogImage: 'https://drive.google.com/file/d/1SA5WLIdnOdeXQcx-6-W-0UfgXyDUhhsT/view?usp=sharing',
   mainNav: [
     {
       title: "Pricing",
@@ -23,12 +23,12 @@ export const siteConfig = {
           description: "Subscription plans and pricings",
           items: [],
         },
-        {
-          title: "Awaj Meda",
-          href: "/pricing/awaj-meda",
-          description: "Top up your Awaj Meda coins here.",
-          items: [],
-        },
+        // {
+        //   title: "Awaj Meda",
+        //   href: "/pricing/awaj-meda",
+        //   description: "Top up your Awaj Meda coins here.",
+        //   items: [],
+        // },
         {
           title: "Bundled Deals",
           href: "/pricing/deals",
@@ -101,7 +101,7 @@ export const siteConfig = {
     //     {
     //       title: "Downloads",
     //       href: "/resources/downloads",
-    //       description: "Awaj AI applications and plugins.",
+    //       description: "Awaj ET applications and plugins.",
     //       icon:"book",
     //       items: [],
     //     },
@@ -126,7 +126,7 @@ export const siteConfig = {
     //     {
     //       title: "Overview Tour",
     //       href: "/resources/overview",
-    //       description: "Quick tour of the Awaj AI software.",
+    //       description: "Quick tour of the Awaj ET software.",
     //       items: [],
     //     },
     //     {
@@ -143,7 +143,7 @@ export const siteConfig = {
         {
           title: "About us",
           href: "/about",
-          description: "Get to know Awaj AI.",
+          description: "Get to know Awaj ET.",
           items: [],
         },
         {
@@ -176,12 +176,12 @@ export const siteConfig = {
         //   description: "Build your own custom campaign.",
         //   items: [],
         // },
-        {
-          title: "Blog",
-          href: "/blog",
-          description: "Check the latest from Awaj AI.",
-          items: [],
-        },
+        // {
+        //   title: "Blog",
+        //   href: "/blog",
+        //   description: "Check the latest from Awaj ET.",
+        //   items: [],
+        // },
         {
           title: "Contact",
           href: "/contact",

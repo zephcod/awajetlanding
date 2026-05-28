@@ -16,8 +16,8 @@ export async function generateMetadata(
     parent?: ResolvingMetadata
   ): Promise<Metadata> {
       return {
-      title: `Awaj AI - ${unslugify(toTitleCase(params.caseid))}`,
-      description: `Awaj digital marketing case studies for ${params.caseid} industry in Ethiopia.`
+      title: `Awaj ET - ${unslugify(toTitleCase(params.caseid))}`,
+      description: `Awaj ET digital marketing case studies for ${params.caseid} industry in Ethiopia.`
     }
   }
 
@@ -31,7 +31,7 @@ const Cases = ({ params }: IndustryPageProps) => {
         <Breadcrumbs
           segments={[
             {
-              title: "Awaj AI Case Studies",
+              title: "Awaj ET Case Studies",
               href: "/resources/awaj_case_studies",
             },
             {

@@ -61,7 +61,7 @@ const groups = [
     label: "Teams",
     teams: [
       {
-        label: "Awaj AI",
+        label: "Awaj ET",
         value: "awajai",
       },
       {

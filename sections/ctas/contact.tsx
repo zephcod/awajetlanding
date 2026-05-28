@@ -25,7 +25,7 @@ const ContactUs = () => {
                 </Link>
             </div>
             <div className=''>
-                <Image src={Content} width={300} height={300} alt='Awaj AI Contact Us Icon'/>
+                <Image src={Content} width={300} height={300} alt='Awaj ET Contact Us Icon'/>
             </div>
         </div>
     </div>

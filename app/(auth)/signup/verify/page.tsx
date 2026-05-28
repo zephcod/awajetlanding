@@ -62,7 +62,7 @@ async function verifyPhone() {
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl">Verify Account</CardTitle>
           <CardDescription>
-            Verify your account to gain full access to Awaj AI
+            Verify your account to gain full access to Awaj ET
           </CardDescription>
         </CardHeader>
         <CardContent className="grid gap-4">

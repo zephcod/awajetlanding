@@ -13,8 +13,8 @@ import { getStoresAction } from "@/app/_actions/store"
 
 // export const metadata: Metadata = {
 //   metadataBase: new URL(env.NEXT_PUBLIC_APP_URL),
-//   title: "Solutions | Awaj AI",
-//   description: 'Assorted solutions from Awaj AI, the agency, and related platforms',
+//   title: "Solutions | Awaj ET",
+//   description: 'Assorted solutions from Awaj ET, the agency, and related platforms',
 // }
 
 interface ProductsPageProps {

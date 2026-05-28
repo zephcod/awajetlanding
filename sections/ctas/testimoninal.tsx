@@ -41,13 +41,13 @@ function Testimonial() {
       url: Rahel,
       client:'Rahel Atnafu',
       title:'Freelancer, Digital Marketing',
-      testimonial:'I am very impressed by the quality and value of Awaj AI. They always anticipate my needs and deliver new features that exceed my expectations. They are very attentive to feedback and act on it promptly. This is very rare and admirable. I appreciate you guys, truly.',
+      testimonial:'I am very impressed by the quality and value of Awaj ET. They always anticipate my needs and deliver new features that exceed my expectations. They are very attentive to feedback and act on it promptly. This is very rare and admirable. I appreciate you guys, truly.',
     },
     {
       url: Ante,
       client:'Anteneh Mekuriya',
       title:'Creative Director, Proximal Studio',
-      testimonial:'This has been a transformative experience. Our entire business is now based on Awaj AI. We have no intention of switching back to our old ways. Where else can you get SMS, email, phone, social media, and web dev in one platform?',
+      testimonial:'This has been a transformative experience. Our entire business is now based on Awaj ET. We have no intention of switching back to our old ways. Where else can you get SMS, email, phone, social media, and web dev in one platform?',
     },
     {
       url: Mo,

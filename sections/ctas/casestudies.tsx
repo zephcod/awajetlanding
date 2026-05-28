@@ -22,7 +22,7 @@ const CasesSection = () => {
                 <Testimonial/>
             </div>
             <div className='p-2 max-w-xs'>
-            <Image src={Content} width={400} height={300} alt='Awaj AI Case Studies Icon'/>
+            <Image src={Content} width={400} height={300} alt='Awaj ET Case Studies Icon'/>
                 <Link href={'/resources/awaj_case_studies'} className='text-primary font-semibold hover:underline'>
                     <div className='flex flex-row items-center justify-center gap-1'>
                         <p>See Case Studies</p>

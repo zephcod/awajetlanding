@@ -4,8 +4,8 @@ import { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-  title: 'Terms and Conditions | Awaj AI',
-  description: 'Brief terms and conditions, agreement and legal terms about Awaj AI, the agency, and related platforms',
+  title: 'Terms and Conditions | Awaj ET',
+  description: 'Brief terms and conditions, agreement and legal terms about Awaj ET, the agency, and related platforms',
 }
 
 
@@ -14,7 +14,7 @@ async function Terms () {
   return (
     <div className='max-w-5xl m-auto mt-12 text-muted-foreground'>
       <h1 className=' text-4xl font-bold'>TERMS AND CONDITIONS</h1>
-      <p className='font-bold mt-3'>Last updated November 08, 2023</p>
+      <p className='font-bold mt-3'>Last updated November 08, 2025</p>
       <br /><br />
       <h2 className='text-3xl font-bold'>AGREEMENT TO OUR LEGAL TERMS</h2><br />
 
@@ -26,8 +26,8 @@ async function Terms () {
         {' (the "Site")'}, as well as any other related products and services that refer or link to these legal terms
          {' (the "Legal Terms")'} {'(collectively, the "Services")'}.</p>
       <br />
-      <p>Awaj AI is a Customer Relationship Management and Content Management System {'(CRM & CMS)'} software. 
-      Awaj AI is comprised of tools that helps businesses manage their relationships with their customers and prospects. 
+      <p>Awaj ET is a Customer Relationship Management and Content Management System {'(CRM & CMS)'} software. 
+      Awaj ET is comprised of tools that helps businesses manage their relationships with their customers and prospects. 
       It allows them to captivate, nurture and organize their prospects, track interactions, automate workflows, 
       generate reports, and more. Our software is highly utilized by growing businesses to improve customer attraction, 
       satisfaction, loyalty, retention, and revenue. The software can also help businesses streamline their sales, 

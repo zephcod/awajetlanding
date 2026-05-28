@@ -19,7 +19,7 @@ import { Shell } from "@/components/shells/shell"
 
 export const metadata: Metadata = {
 //   metadataBase: new URL(env.NEXT_PUBLIC_APP_URL),
-  title: "Billing | Awaj AI",
+  title: "Billing | Awaj ET",
   description: "Manage your billing and subscription",
 }
 

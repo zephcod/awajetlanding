@@ -3,7 +3,7 @@ import React from 'react'
 
 const AwajTools = () => {
   return (
-    <UnderConstruction title={'Awaj AI Tools'} date={''}/>
+    <UnderConstruction title={'Awaj ET Tools'} date={''}/>
   )
 }
 

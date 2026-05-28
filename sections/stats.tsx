@@ -9,7 +9,7 @@ const Stats = () => {
         <div className='h-10'></div>
         <div className='flex flex-row text-muted-foreground justify-center text-center gap-2 w-full p-4 m-auto'>
             <h3 className='text-2xl lg:text-3xl font-bold leading-[1.15]'>Grow with us, Awaj
-            <span className='text-primary'>{' '}AI{" "}</span>is booming🔥.  </h3>
+            <span className='text-primary'>{' '}ET{" "}</span>is booming🔥.  </h3>
         </div>
         <div className='flex flex-col md:flex-row gap-6 mx-auto max-w-4xl py-4'>
             <div className={styles.statcanvas}>

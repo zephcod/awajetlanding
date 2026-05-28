@@ -10,8 +10,8 @@ import Faqs from '@/components/faq/faqs';
 
 
 export const metadata: Metadata = {
-  title: 'Awaj AI Downloads',
-  description: 'Awaj AI software and related platforms downloads',
+  title: 'Awaj ET Downloads',
+  description: 'Awaj ET software and related platforms downloads',
 }
 
 
@@ -21,7 +21,7 @@ const Downloads = () => {
     <>
     <div className='flex justify-center items-center flex-col w-full mx-auto text-center gap-2 px-6'>
       <h1 className="py-6 text-3xl text-center text-muted-foreground font-bold leading-[1.15] lg:text-4xl">
-        Download Awaj AI
+        Download Awaj ET
       </h1>
       <div className={styles.headline1_canvas}>
         <div className={'flex flex-col md:flex-row justify-evenly max-w-4xl items-center'}>
@@ -33,7 +33,7 @@ const Downloads = () => {
             <p>Whether you&apos;re in the office or you&apos;re out and about - 
                 Awaj is ready whenever, and wherever, you are!</p>
             <br />
-            <p>Install Awaj AI across all of your compatible systems
+            <p>Install Awaj ET across all of your compatible systems
             to gain full access to our tools, get notifications, and move your marketing and sales forward.</p>
             <div className='mt-8 flex flex-col items-center text-center text-muted-foreground'>
               <div className="border-border border-t-2 border-dashed h-8 w-full"></div>

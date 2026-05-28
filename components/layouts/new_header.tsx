@@ -31,7 +31,7 @@ const NewHeader = () => {
              : (
               <div className="flex flex-row gap-2 items-center">
               <ThemeToggle/>
-              <Link href="https://forms.gle/TvkRe5F61SoMgqZ47" target="_blank">
+              <Link href="https://forms.gle/7BeP4SmbH1ZxeMen7" target="_blank">
                 <div
                   className={buttonVariants({
                     variant:'outline',

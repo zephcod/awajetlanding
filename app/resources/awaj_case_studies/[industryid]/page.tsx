@@ -39,7 +39,7 @@ const Industry = ({ params }: IndustryPageProps) => {
       <Breadcrumbs
         segments={[
           {
-            title: "Awaj AI Case Studies",
+            title: "Awaj ET Case Studies",
             href: "/resources/awaj_case_studies",
           },
           {

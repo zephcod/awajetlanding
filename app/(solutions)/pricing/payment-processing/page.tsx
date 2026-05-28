@@ -6,8 +6,8 @@ import Link from 'next/link'
 import ContactUs from '@/sections/ctas/contact'
 
 export const metadata: Metadata = {
-  title: 'Online Payment Processing | Awaj AI',
-  description: 'Online payment processing methods and instructions for Awaj AI, the agency, and related platforms',
+  title: 'Online Payment Processing | Awaj ET',
+  description: 'Online payment processing methods and instructions for Awaj ET, the agency, and related platforms',
 }
 
 const PaymentProcessing = () => {

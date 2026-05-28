@@ -3,8 +3,8 @@ import { Metadata } from 'next'
 import React from 'react'
 
 export const metadata: Metadata = {
-  title: 'Awaj AI Campaign Builder',
-  description: 'Assorted digital marketing and sales campaign builder from Awaj AI, the agency, and related platforms',
+  title: 'Awaj ET Campaign Builder',
+  description: 'Assorted digital marketing and sales campaign builder from Awaj ET, the agency, and related platforms',
 }
 
 

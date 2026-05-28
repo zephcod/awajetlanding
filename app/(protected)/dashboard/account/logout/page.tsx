@@ -51,7 +51,7 @@ const LogOut = () => {
             </div>
             <div className="relative flex justify-center text-xs uppercase">
               <span className="bg-card px-2 text-muted-foreground ">
-              awaj ai
+              awaj et
               </span>
             </div>
           </div>
