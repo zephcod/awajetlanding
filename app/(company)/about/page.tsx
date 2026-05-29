@@ -9,7 +9,8 @@ import Mission2 from "@/public/casestudy/technology.png"
 import Faqs from "@/components/faq/faqs"
 import Stats from "@/sections/stats"
 import { Separator } from "@/components/UI/separator"
-import ContactUs from "@/sections/ctas/contact"
+import ContactUs from "@/sections/ctas/discount"
+import CallUs from "@/sections/ctas/call_us"
 
 export const metadata: Metadata = {
   title: 'About Awaj ET',
@@ -93,7 +94,7 @@ const About = () => {
       </div>
       <div className="h-12"></div>
       <Stats/>
-      <ContactUs/>
+      <CallUs/>
       <div className="h-16"></div>
       <Faqs/>
     </div>

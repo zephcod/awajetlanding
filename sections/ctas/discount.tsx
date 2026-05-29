@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from "next/image"
-import Content from "@/public/casestudy/hand_heart.png"
+import Content from "@/public/casestudy/hand_call_us.png"
 import { Icons } from '@/components/UI/icons'
 
 const ContactUs = () => {
@@ -21,7 +21,7 @@ const ContactUs = () => {
                 Reach out to us through this link, and we'll get back to you promptly.
                 </p>
                 <Link href={'/contact'} className=' font-semibold hover:underline'>
-                    Contact Us 🡥
+                    Claim offer | ቅምሻውን ይሞክሩ 🡥
                 </Link>
             </div>
             <div className=''>

@@ -3,14 +3,14 @@
     font-size: 24px;
     text-align: center;
     font-weight: 700;
-    color: var(--primaryColor);
+    color: var(--accent-text);
   }
   .price_title2{
     margin-bottom: 16px;
     font-size: 24px;
     text-align: center;
     font-weight: 700;
-    color: var(--secondaryColor);
+    color: var(--accent-text);
   }
 
   .toggler2{

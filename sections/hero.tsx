@@ -33,7 +33,7 @@ const Hero = () => {
                         Claim your market share online and get tangible results.
                         </p>
                     </div>
-                    <div className='h-4 border-border border-dashed border-b-2 mb-8'></div>
+                    <div className='h-4 border-border border-dashed border-b-2 mb-6'></div>
                     <div className='relative hidden md:flex flex-row justify-evenly items-baseline gap-4'>
                         <ColorButton text='Check Deals' url='#deals'><Icons.arrowDown className='h-4 w-4'/></ColorButton>
                         <ColorButton text='Case Studies' url='#case_sec'><Icons.arrowDown className='h-4 w-4'/></ColorButton>
@@ -51,7 +51,7 @@ const Hero = () => {
                         Claim your market share online and get tangible results.
                         </p>
                     </div>
-                    <Image className='cloud' src={Content} width={400} height={400} alt='Awaj ET Downloads Icon'/>
+                    <Image className='cloud' src={Content} width={400} height={400} alt='Awaj ET Digital Billboard'/>
                     <div className='flex flex-row mt-2 gap-4 justify-center items-center'>
                         <ScrollLink href={'#deals'}>Check Deals</ScrollLink>
                         <Link href={'https://forms.gle/TvkRe5F61SoMgqZ47'} target='_blank'>

@@ -10,7 +10,7 @@ import ScrollLink from '@/components/UI/scroll_link'
 const Headline1 = () => {
   return (
     <div className={styles.containerMain}>
-      <h1 className='text-center text-4xl lg:text-5xl font-bold leading-[1.15] text-muted-foreground mb-8 mx-2'>All-in-one Digital {' '}
+      <h1 className='text-center text-4xl lg:text-5xl font-bold leading-[1.15] text-muted-foreground mb-6 mx-2'>All-in-one Digital {' '}
       <span className=' underline'>Marketing</span> {' '} & {' '} <span className='underline'>Sales</span> </h1>
         <div className={styles.headline1_canvas}>
           <Image

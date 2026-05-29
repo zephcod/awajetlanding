@@ -5,7 +5,7 @@ import styles from '@/components/page.module.css'
 import Headline1 from "@/sections/ctas/headline1";
 import Stats from "@/sections/stats";
 import { QuickCampaign } from "./pricing/quick_campaign";
-import DownloadSection from "@/sections/ctas/downloads";
+import CallUs from "@/sections/ctas/call_us";
 import CasesSection from "@/sections/ctas/casestudies";
 import DealsSection from "@/sections/ctas/deals";
 
@@ -28,7 +28,7 @@ export default function Main() {
       <div className="h-24"></div>
       <Stats/>
       <ValueProp/>
-      <DownloadSection/>
+      <CallUs/>
       <div className="h-24"></div>
       <section id='quick' className="w-full">
       <QuickCampaign/>

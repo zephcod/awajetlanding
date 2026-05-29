@@ -11,11 +11,11 @@ const CtaHeadline = () => {
   return (
     <div className={styles.containerMain}>
           <p className='text-xl md:text-2xl text-muted-foreground py-3'>
-            Test <span className='text-primary'>Awaj ET's</span>  digital billboard!
+            Test <span className='text-primary'>Awaj ET's</span>  Digital Billboard!
           </p>
           {/* <Icons.arrowDown className='text-muted-foreground animate-bounce'/> */}
           <div className="max-w-5xl mx-auto text-center flex flex-col w-full items-center">
-            <Image className='cloud' src={Content} width={400} height={400} alt='Awaj ET Downloads Icon'/>
+            <Image className='cloud' src={Content} width={400} height={400} alt='Awaj ET Digital Billboard'/>
             <br />
             <Link href="https://forms.gle/TvkRe5F61SoMgqZ47" target='_blank'>
                 <div

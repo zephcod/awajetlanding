@@ -116,6 +116,7 @@
     --dropdown: rgb(49, 51, 51,.98);
     --accent1: #948f7a;
     --accent2: hsl(49, 79%, 55%);
+    --accent-text: hsl(0, 0%, 85%);
     
     --btn-bg: linear-gradient(145deg, #171717, #444245);
     --btn-bg2: linear-gradient(145deg, #262626, #606060);
@@ -170,6 +171,7 @@ body {
  --dropdown: rgb(228, 238, 245,.98);
  --accent1: #948f7a;
  --accent2: #e7c633;
+ --accent-text: hsl(0, 0%, 15%);
  
  --btn-bg: linear-gradient(145deg, #d0dee0, #eef9fa);
  --btn-bg2: linear-gradient(145deg, #262626, #606060);

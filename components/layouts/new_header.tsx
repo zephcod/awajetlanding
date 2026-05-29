@@ -4,12 +4,10 @@ import Link from "next/link"
 import { dashboardConfig } from "@/config/dashboard"
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/UI/button"
-import { CartSheet } from "@/components/cart/cart_sheet"
+import { Icons } from '@/components/UI/icons'
 import { MainNav } from "@/components/layouts/main_nav"
 import { MobileNav } from "@/components/layouts/mobile_nav"
 import { ThemeToggle } from "./theme_toggle"
-
-import React from 'react'
 import UserMenu from './user_menu';
 
 const NewHeader = () => {
@@ -31,15 +29,20 @@ const NewHeader = () => {
              : (
               <div className="flex flex-row gap-2 items-center">
               <ThemeToggle/>
-              <Link href="https://forms.gle/7BeP4SmbH1ZxeMen7" target="_blank">
+              <Link 
+              href="https://wa.me/251903569999?text=Hello%20Awaj%20ET%2C%20I%20would%20like%20to%20book%20a%20consultation." 
+              target="_blank"
+              rel="noopener noreferrer"
+              >
                 <div
                   className={buttonVariants({
                     variant:'outline',
                     size: "sm",
                   })}
                 >
-                  Book Consult
-                  <span className="sr-only">Book Consult</span>
+                  <Icons.phone className='h-4 w-4 mr-2'/>
+                   WhatsApp
+                  <span className="sr-only">WhatsApp</span>
                 </div>
               </Link>
               </div>

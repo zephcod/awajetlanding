@@ -4,6 +4,7 @@ import GlassModal from '@/components/modal/modal';
 import PopularOrders from '@/components/pricing/popular_orders';
 import Subscriptions from '@/components/pricing/subscription';
 import type { Metadata } from 'next'
+import CallUs from '@/sections/ctas/call_us';
 
 export const metadata: Metadata = {
   title: 'Awaj pricing and plans',
@@ -31,21 +32,8 @@ export default function Price(){
         <br/>
       </>
       <Subscriptions/>
-      <div className='mt-8 text-base text-muted-foreground text-center max-w-3xl'>
-        <h2 className=' font-semibold text-2xl'>
-          Not ready to order yet?
-        </h2>
-        <br/>
-        <p>
-        Get a demo to see the key advertising workflows or start with Awaj free 
-        and get access to our standard tools, reports and marketing databases.
-        </p>
-        <br/>
       </div>
-      </div>
-      <div className='flex flex-row justify-center items-center align-middle gap-6 mb-8'>
-      <GlassModal/>
-      </div>
+      <CallUs/>
       <div className='mt-8 text-base text-muted-foreground text-center max-w-3xl m-auto'>
         <br/>
         <h2 className=' font-semibold text-2xl'>

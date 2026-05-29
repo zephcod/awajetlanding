@@ -3,7 +3,7 @@ import * as React from "react"
 import styles from './page.module.css'
 import Outline from '@/components/button/outline';
 import { BsCheck } from 'react-icons/bs';
-//import '@/components/pricing/test.css'
+import '@/components/pricing/test.css'
 import { Slider } from "@/components/UI/slider";
 import { formatPrice } from "@/app/utils/utils"
 
@@ -67,7 +67,7 @@ export default function Subscriptions(){
         <div className={selectMonthly === true ?'toggler':'toggler2'} onClick={() => {
             setSelectMonthly((prev) => !prev);
             }}>
-          <div className='p-3 text-sm text-card font-semibold'>Annually</div>
+          <div className='p-3 text-sm accent-text font-semibold'>Annually</div>
           <div className='p-3 text-sm text-muted-foreground font-semibold'>Monthly</div>
           <div
             className={'ball2'}
