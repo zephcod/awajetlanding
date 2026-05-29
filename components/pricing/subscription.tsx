@@ -11,9 +11,9 @@ import { formatPrice } from "@/app/utils/utils"
 
 export default function Subscriptions(){
     const [selectMonthly,setSelectMonthly ] = React.useState<Boolean>(true);
-    const [priceFix, setPriceFix] = React.useState<[number]>([40000])
+    const [priceFix, setPriceFix] = React.useState<[number]>([50000])
     const priceFormat = Number(priceFix)
-    const customerSize = (priceFormat*0.25)
+    const customerSize = (priceFormat*0.2)
     interface PriceWrapperProps {
       id: number; title:string; price:number; feature1:string; feature2:string; feature3:string; feature4:string; feature5:string; feature6:string; feature7:string; feature8:string;
     }
@@ -78,27 +78,27 @@ export default function Subscriptions(){
           price={selectMonthly?10000:8500} 
           title='📣 Essential' 
           id={1} 
-          feature1='Adaptive content strategy'
-          feature2='Awaj content store free access'
-          feature3='Performance monitoring'
-          feature4='Weekley insight report'
-          feature5='SEO on-page optimization'
-          feature6='Landing page optimization'
-          feature7='Lead generation strategy'
-          feature8='Sales funnel automation'
+          feature1='6,000 ETB Direct Ad spend'
+          feature2='1 Campaign Setup'
+          feature3='Daily Performance monitoring'
+          feature4='Audience targeting setup'
+          feature5='Basic monthly report'
+          feature6='NO Retargeting'
+          feature7='NO Competitor analysis'
+          feature8='NO Content optimization'
           />
           <PriceWrapper 
           price={selectMonthly?20000:18000} 
           title='📈 Business' 
           id={2} 
-          feature1='All essential features included'
-          feature2='Awaj ET Meda free access'
-          feature3='Ad targeting strategy'
-          feature4='SEO backlink building'
-          feature5='SMS automation'
-          feature6='Email automation'
-          feature7='Community building strategy'
-          feature8='Conversion rate optimization'
+          feature1='13,000 ETB Direct Ad spend'
+          feature2='2 Campaign Setup'
+          feature3='Daily Performance monitoring'
+          feature4='Audience +ad targeting setup'
+          feature5='Weekly insight report'
+          feature6='Retargeting setup'
+          feature7='Competitor analysis'
+          feature8='Ad Content optimization'
           />
           <div className={styles.canvas}>
             <div className= {styles.card}>
@@ -115,9 +115,9 @@ export default function Subscriptions(){
                   aria-label="Enterprise package slider"
                   thickness="thin"
                   name="456"
-                  defaultValue={[40000]}
-                  min={40000}
-                  max={800000}
+                  defaultValue={[50000]}
+                  min={50000}
+                  max={1000000}
                   step={10000}
                   value={priceFix}
                   onValueChange={(
@@ -139,10 +139,10 @@ export default function Subscriptions(){
                   <BsCheck/><p>Brand tone development</p>
                 </div>
                 <div className='px-2 flex flex-row items-center gap-2'>
-                  <BsCheck/><p>A/B testing workflows</p>
+                  <BsCheck/><p>Full funnel strategy</p>
                 </div>
                 <div className='px-2 flex flex-row items-center gap-2'>
-                  <BsCheck/><p>CI/CD workflows</p>
+                  <BsCheck/><p>A/B testing workflows</p>
                 </div>
               </div>
               <div className="items-start flex flex-col">
