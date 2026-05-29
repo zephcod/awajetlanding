@@ -52,52 +52,52 @@ const PopularOrders = () => {
           <ArticleCard
             id={1}
             title='Facebook'
-            price='1,500ETB'
+            price='3,000ETB'
             img={Fb.src}/>
           <ArticleCard
             id={2}
             title='Instagram'
-            price='7,000ETB'
+            price='3,000ETB'
             img={Insta.src}/>
           <ArticleCard
             id={3}
             title='Linked In'
-            price='1,500ETB'
+            price='7,500ETB'
             img={LinkedIn.src}/>
           <ArticleCard
             id={4}
             title='You Tube'
-            price='1,500ETB'
+            price='18,500ETB'
             img={YouTube.src}/>
           <ArticleCard
             id={5}
-            title='Tic Tok'
-            price='1,500ETB'
+            title='TikTok'
+            price='18,500ETB'
             img={Tictok.src}/>
           <ArticleCard
             id={6}
             title='Google'
-            price='1,500ETB'
+            price='4,500ETB'
             img={Google.src}/>
           <ArticleCard
             id={7}
             title='Snap Chat'
-            price='1,500ETB'
+            price='13,500ETB'
             img={SnapChat.src}/>
           <ArticleCard
             id={8}
             title='Pintrest'
-            price='1,500ETB'
+            price='4,500ETB'
             img={Pintrest.src}/>
           <ArticleCard
             id={9}
             title='Telegram'
-            price='1,500ETB'
+            price='4,500ETB'
             img={Telegram.src}/>
           <ArticleCard
             id={10}
             title='Twitter'
-            price='1,500ETB'
+            price='4,500ETB'
             img={Twitter.src}/>
       </section>
         <div className='absolute my-auto bottom-1'>

@@ -5,6 +5,7 @@ import PopularOrders from '@/components/pricing/popular_orders';
 import Subscriptions from '@/components/pricing/subscription';
 import type { Metadata } from 'next'
 import CallUs from '@/sections/ctas/call_us';
+import Discount from '@/sections/ctas/discount';
 
 export const metadata: Metadata = {
   title: 'Awaj pricing and plans',
@@ -41,6 +42,7 @@ export default function Price(){
         </h2>
       </div>
       <PopularOrders/>
+      <Discount/>
     </section>
   );
 }

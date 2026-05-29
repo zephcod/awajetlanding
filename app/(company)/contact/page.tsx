@@ -12,55 +12,22 @@ import Link from "next/link";
 import { Separator } from "@/components/UI/separator";
 
 export const metadata = {
-  title: "Awaj Ad Contact Page",
-  description: "Awaj Ad Contact Page",
+  title: "Awaj ET Contact Page",
+  description: "Awaj ET Contact Page",
 };
 
 const Contact = () => {
   return (
       <div className={styles.maincontainer}>
-        <div className={styles.imgContainer}>
-          <Image
-            src={HelpBg}
-            fill={true}
-            alt="awaj et help center"
-            className={styles.img}
-          />
-          <div className={styles.imgText}>
-            <div className="flex flex-col gap-4 items-center">
-              <div className='ring-1 ring-accent bg-card opacity-90 rounded-md shadow-md p-4 items-center'>
-                <h2 className="font-semibold text-4xl m-auto text-center text-muted-foreground">Get in touch!</h2>
-                <p className="p-4 text-center text-muted-foreground max-w-2xl m-auto">
-                  Do you have a question, suggestion, partnerships ideas or just want to say hello? We love hearing from you. 
-                  Reach out! we&apos;ll get back to you promptly.
-                </p>
-              </div>
-              <div className="flex flex-col md:flex-row items-center justify-evenly w-full gap-2 text-muted-foreground">
-                <div className='ring-1 ring-accent bg-card opacity-90 rounded-md shadow-md p-4 items-center w-56'>
-                  <Link href={'/resources/getting_started'} className="flex flex-row gap-4 items-center">
-                    <Icons.book className="h-8 w-8"/>
-                    <p className="p-1 font-semibold text-lg ">
-                      Awaj ET<br/>Resources 🡥
-                    </p>
-                  </Link>
-                </div>
-                <div className='ring-1 ring-accent bg-card opacity-90 rounded-md shadow-md p-4 items-center w-56'>
-                <Link href={'/team'} className="flex flex-row gap-4 items-center">
-                  <Icons.radar className="h-8 w-8"/>
-                    <p className="p-1 font-semibold text-lg ">
-                      Career<br/>Opportunities 🡥
-                    </p>
-                  </Link>
-                </div>
-                <div className='ring-1 ring-accent bg-card opacity-90 rounded-md shadow-md p-4 items-center w-56'>
-                <Link href={'/help_center'} className="flex flex-row gap-4 items-center">
-                  <Icons.addCircle className="h-8 w-8"/>
-                    <p className="p-1 font-semibold text-lg ">
-                      Help<br/>Center 🡥
-                    </p>
-                  </Link>
-                </div>
-              </div>
+        <div className="mt-24 max-w-4xl m-auto">
+          <div className={styles.content}>
+            <div className={styles.imageContainer}>
+              <Image
+                src={Character_contact}
+                alt=""
+                fill={true}
+                className={styles.image}
+                />
             </div>
           </div>
         </div>
@@ -125,33 +92,6 @@ const Contact = () => {
           </div>
         </div>
         <MapEmbed/>
-        </div>
-        <div className="mt-24 max-w-4xl m-auto">
-          <div className={styles.content}>
-            <div className={styles.imageContainer}>
-              <Image
-                src={Character_contact}
-                alt=""
-                fill={true}
-                className={styles.image}
-                />
-            </div>
-            <form className={styles.form}>
-              <h3 className="font-semibold text-lg text-muted-foreground ">
-                Leave us a message.
-              </h3>
-              <input type="text" placeholder="name" className={styles.input} />
-              <input type="text" placeholder="email" className={styles.input} />
-              <input type="text" placeholder="phone" className={styles.input} />
-              <textarea
-                className={styles.textArea}
-                placeholder="message"
-                cols={30}
-                rows={10}
-                ></textarea>
-              <Button url="#" text="Send"/>
-            </form>
-          </div>
         </div>
       <div className="h-12"></div>
       <Stats/>

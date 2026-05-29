@@ -35,8 +35,8 @@ const Hero = () => {
                     </div>
                     <div className='h-4 border-border border-dashed border-b-2 mb-6'></div>
                     <div className='relative hidden md:flex flex-row justify-evenly items-baseline gap-4'>
-                        <ColorButton text='Check Deals' url='#deals'><Icons.arrowDown className='h-4 w-4'/></ColorButton>
-                        <ColorButton text='Case Studies' url='#case_sec'><Icons.arrowDown className='h-4 w-4'/></ColorButton>
+                        <ColorButton text='Deals | ጥቅሎች' url='#deals'><Icons.arrowDown className='h-4 w-4'/></ColorButton>
+                        <ColorButton text='Testimonials' url='#case_sec'><Icons.arrowDown className='h-4 w-4'/></ColorButton>
                         {/* <RoundButton url='/resources/overview' text='Take a Tour'><Icons.arrowUpRight className='h-4 w-4'/></RoundButton> */}
                     </div>
                 </div>
@@ -53,7 +53,7 @@ const Hero = () => {
                     </div>
                     <Image className='cloud' src={Content} width={400} height={400} alt='Awaj ET Digital Billboard'/>
                     <div className='flex flex-row mt-2 gap-4 justify-center items-center'>
-                        <ScrollLink href={'#deals'}>Check Deals</ScrollLink>
+                        <ScrollLink href={'#deals'}>Deals | ጥቅሎች</ScrollLink>
                         <Link href={'https://forms.gle/TvkRe5F61SoMgqZ47'} target='_blank'>
                             <div className='text-muted-foreground flex flex-row items-center justify-center gap-1 ring-1 ring-border rounded-md px-4 py-2'>
                                 <p className='text-sm'>Ad Sample</p>

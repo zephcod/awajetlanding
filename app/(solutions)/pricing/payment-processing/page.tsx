@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Content from "@/public/4payment.png"
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import ContactUs from '@/sections/ctas/discount'
+import Discount from '@/sections/ctas/discount'
 
 export const metadata: Metadata = {
   title: 'Online Payment Processing | Awaj ET',
@@ -82,7 +82,7 @@ const PaymentProcessing = () => {
         </div>
       </div>
     </div>
-    <ContactUs/>
+    <Discount/>
     <div className='h-24'></div>
     </div>
   )

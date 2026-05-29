@@ -9,7 +9,7 @@ import Mission2 from "@/public/casestudy/technology.png"
 import Faqs from "@/components/faq/faqs"
 import Stats from "@/sections/stats"
 import { Separator } from "@/components/UI/separator"
-import ContactUs from "@/sections/ctas/discount"
+import Discount from "@/sections/ctas/discount"
 import CallUs from "@/sections/ctas/call_us"
 
 export const metadata: Metadata = {

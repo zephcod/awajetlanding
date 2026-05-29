@@ -36,10 +36,18 @@ const Help = () => {
               </div>
               <div className="flex flex-col md:flex-row items-center justify-evenly w-full gap-2 text-muted-foreground">
                 <div className='ring-1 ring-accent bg-card opacity-90 rounded-md shadow-md p-4 items-center w-56'>
-                  <Link href={'/resources/getting_started'} className="flex flex-row gap-4 items-center">
+                  <Link href={'/pricing/deals'} className="flex flex-row gap-4 items-center">
                     <Icons.book className="h-8 w-8"/>
                     <p className="p-1 font-semibold text-lg ">
-                      Awaj ET<br/>Resources 🡥
+                      Awaj Deals<br/> አዋጅ ጥቅሎች 🡥
+                    </p>
+                  </Link>
+                </div>
+                <div className='ring-1 ring-accent bg-card opacity-90 rounded-md shadow-md p-4 items-center w-56'>
+                <Link href={'/team'} className="flex flex-row gap-4 items-center">
+                  <Icons.radar className="h-8 w-8"/>
+                    <p className="p-1 font-semibold text-lg ">
+                      Career<br/>Opportunities 🡥
                     </p>
                   </Link>
                 </div>
@@ -47,7 +55,7 @@ const Help = () => {
                 <Link href={'/contact'} className="flex flex-row gap-4 items-center">
                   <Icons.phone className="h-8 w-8"/>
                     <p className="p-1 font-semibold text-lg ">
-                      Contact<br/>Us 🡥
+                      Contact Us<br/> ያግኙን 🡥
                     </p>
                   </Link>
                 </div>

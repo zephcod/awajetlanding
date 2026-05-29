@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image";
-import Funnel from "@/public/funnel-min.webp";
+import Funnel from "@/public/funnel_et.webp";
 import ROI from "@/public/character/6_hand.png";
 import styles from '@/sections/ctas/headline1.module.css'
 import LogoSlider from './logoslider';

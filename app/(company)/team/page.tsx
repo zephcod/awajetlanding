@@ -10,7 +10,7 @@ import Mission1 from "@/public/casestudy/hand_bulb.png"
 import Mission2 from "@/public/casestudy/technology.png"
 import Faqs from "@/components/faq/faqs"
 import Stats from "@/sections/stats"
-import ContactUs from "@/sections/ctas/discount"
+import Discount from "@/sections/ctas/discount"
 import GlassFlash from '@/components/UI/flash_glass'
 import Aman from '@/public/profile/aman.jpg'
 import Ibsa from '@/public/profile/ibsaa.jpg'
@@ -193,7 +193,7 @@ const Team = () => {
       </div>
       <div className="h-12"></div>
       <Stats/>
-      <ContactUs/>
+      <Discount/>
       <div className="h-16"></div>
       <Faqs/>
     </div>

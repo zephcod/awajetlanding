@@ -67,7 +67,7 @@ export default function Subscriptions(){
         <div className={selectMonthly === true ?'toggler':'toggler2'} onClick={() => {
             setSelectMonthly((prev) => !prev);
             }}>
-          <div className='p-3 text-sm accent-text font-semibold'>Annually</div>
+          <div className='p-3 text-sm text-black font-semibold'>Annually</div>
           <div className='p-3 text-sm text-muted-foreground font-semibold'>Monthly</div>
           <div
             className={'ball2'}
@@ -75,7 +75,7 @@ export default function Subscriptions(){
         </div><br/>
         <div className={styles.tiercard}>
           <PriceWrapper 
-          price={selectMonthly?2000:1500} 
+          price={selectMonthly?10000:8500} 
           title='📣 Essential' 
           id={1} 
           feature1='Adaptive content strategy'
@@ -88,7 +88,7 @@ export default function Subscriptions(){
           feature8='Sales funnel automation'
           />
           <PriceWrapper 
-          price={selectMonthly?5000:3700} 
+          price={selectMonthly?20000:18000} 
           title='📈 Business' 
           id={2} 
           feature1='All essential features included'
@@ -116,8 +116,8 @@ export default function Subscriptions(){
                   thickness="thin"
                   name="456"
                   defaultValue={[40000]}
-                  min={10000}
-                  max={200000}
+                  min={40000}
+                  max={800000}
                   step={10000}
                   value={priceFix}
                   onValueChange={(
@@ -151,7 +151,7 @@ export default function Subscriptions(){
               </div>
               <div className="flex flex-row justify-evenly">
               <Outline text='Order' url='/pricing/check_out'/>
-              <Outline text='Contact us' url='/pricing/help_center'/>
+              <Outline text='Contact us' url='contact'/>
               </div>
             </div>
           </div>

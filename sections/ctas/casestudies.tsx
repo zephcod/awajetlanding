@@ -11,7 +11,7 @@ const CasesSection = () => {
         <div className='h-10'></div>
         <div className='flex flex-row text-muted-foreground items-center justify-center text-center gap-2 w-full m-auto'>
             <h3 className='text-2xl lg:text-3xl font-bold leading-[1.15]'>Get results with Awaj
-            <span className='text-primary'>{' '}AI</span>.</h3>
+            <span className='text-primary'>{' '}ET</span>.</h3>
             <Icons.chart className='h-8 w-8 '/>
         </div>
         <div className='text-muted-foreground items-center text-center flex flex-col md:flex-row mx-auto max-w-4xl'>
@@ -23,9 +23,9 @@ const CasesSection = () => {
             </div>
             <div className='p-2 max-w-xs'>
             <Image src={Content} width={400} height={300} alt='Awaj ET Case Studies Icon'/>
-                <Link href={'/resources/awaj_case_studies'} className='text-primary font-semibold hover:underline'>
+                <Link href="https://www.youtube.com/@AwajAIcom" target='_blank' className='text-primary font-semibold hover:underline'>
                     <div className='flex flex-row items-center justify-center gap-1'>
-                        <p>See Case Studies</p>
+                        <p>See Testimonials</p>
                         <Icons.arrowUpRight className='h-4 w-4'/>
                     </div>
                 </Link>

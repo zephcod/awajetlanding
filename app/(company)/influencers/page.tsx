@@ -4,7 +4,7 @@ import Image from "next/image"
 import InfluencerBg from "@/public/character/1846.png"
 import { Metadata } from "next"
 import Stats from "@/sections/stats"
-import ContactUs from "@/sections/ctas/discount"
+import Discount from "@/sections/ctas/discount"
 import Faqs from "@/components/faq/faqs"
 import { Separator } from "@/components/UI/separator"
 import Content from "@/public/character/1882.png"
@@ -125,7 +125,7 @@ const Influencers = () => {
         <Separator/>
         </div>
       </div>
-      <ContactUs/>
+      <Discount/>
       <Stats/>
       <div className="h-16"></div>
       <Faqs/>
