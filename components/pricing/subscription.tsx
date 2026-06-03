@@ -133,16 +133,16 @@ export default function Subscriptions(){
                   <BsCheck/><p>All business features included</p>
                 </div>
                 <div className='px-2 flex flex-row items-center gap-2'>
-                  <BsCheck/><p>High quality authorative content</p>
+                  <BsCheck/><p>Full funnel strategy</p>
                 </div>
                 <div className='px-2 flex flex-row items-center gap-2'>
                   <BsCheck/><p>Brand tone development</p>
                 </div>
                 <div className='px-2 flex flex-row items-center gap-2'>
-                  <BsCheck/><p>Full funnel strategy</p>
+                  <BsCheck/><p>Creative and influencer collab</p>
                 </div>
                 <div className='px-2 flex flex-row items-center gap-2'>
-                  <BsCheck/><p>A/B testing workflows</p>
+                  <BsCheck/><p>Premium support</p>
                 </div>
               </div>
               <div className="items-start flex flex-col">

@@ -37,7 +37,7 @@ const Headline1 = () => {
               </p>
                 <div className='mt-8 relative flex flex-col md:flex-row gap-6 items-center'>
                   <ScrollLink href={'#deals'}>
-                  Check bundled deals
+                  Check package deals
                   </ScrollLink>
                   <ScrollLink href={'#case_sec'}>
                   Check case studies

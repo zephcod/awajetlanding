@@ -32,6 +32,7 @@ const NewHeader = () => {
               <Link 
               href="https://wa.me/251903569999?text=Hello%20Awaj%20ET%2C%20I%20would%20like%20to%20book%20a%20consultation." 
               rel="noopener noreferrer"
+              target='_blank'
               >
                 <div
                   className={buttonVariants({

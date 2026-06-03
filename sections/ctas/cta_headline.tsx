@@ -6,6 +6,7 @@ import Image from "next/image"
 import Content from "@/public/awajai_cloud-min.webp"
 import Link from 'next/link'
 import { buttonVariants } from '@/components/UI/button'
+import ScrollLink from '@/components/UI/scroll_link'
 
 const CtaHeadline = () => {
   return (
@@ -17,20 +18,7 @@ const CtaHeadline = () => {
           <div className="max-w-5xl mx-auto text-center flex flex-col w-full items-center">
             <Image className='cloud' src={Content} width={400} height={400} alt='Awaj ET Digital Billboard'/>
             <br />
-            <Link href="https://forms.gle/TvkRe5F61SoMgqZ47" target='_blank'>
-                <div
-                  className={buttonVariants({
-                    variant:'default',
-                    size: "default",
-                  })}
-                >
-                  <div className='flex flex-row gap-1 items-center px-2 py-1'>
-                    Ad Sample
-                    <Icons.arrowExternalLink className='h-4 w-4'/>
-                  </div>
-                  <span className="sr-only">Ad Sample</span>
-                </div>
-              </Link>
+            <ScrollLink href={'#quick'}>Ad Sample</ScrollLink>
             <p className='mt-2 text-base font-light text-muted-foreground'>
               Check your pre-campaign performance here.
             </p>

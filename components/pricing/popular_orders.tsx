@@ -1,16 +1,17 @@
 import React from 'react'
 import Image from "next/image";
 import styles from '@/components/pricing/popular_orders.module.css';
-import Fb from '@/public/social/facebook.png'
+import Meta from '@/public/social/meta.png'
 import LinkedIn from '@/public/social/linkdin.png'
 import Twitter from '@/public/social/twitter.png'
-import Tictok from '@/public/social/tictok.png'
 import Telegram from '@/public/social/telegram.png'
 import SnapChat from '@/public/social/snapcat.png'
-import Pintrest from '@/public/social/pinterest.png'
+import PhotoCamera from '@/public/casestudy/photo_camera.png'
+import PromoVideo from '@/public/casestudy/promo.webp'
+import Branding from '@/public/casestudy/branding.webp'
+import Training from '@/public/casestudy/training.webp'
 import Google from '@/public/social/google.png'
-import YouTube from '@/public/social/youtube.png'
-import Insta from '@/public/social/instagram.png'
+import Website from '@/public/social/website.png'
 import Link from 'next/link';
 import ExpandingArrow from '../expanding_arrow';
 
@@ -51,53 +52,53 @@ const PopularOrders = () => {
     <section className={styles.card_list}>
           <ArticleCard
             id={1}
-            title='Facebook'
-            price='3,000ETB'
-            img={Fb.src}/>
+            title='Meta Boost'
+            price='5,000ETB'
+            img={Meta.src}/>
           <ArticleCard
             id={2}
-            title='Instagram'
-            price='3,000ETB'
-            img={Insta.src}/>
+            title='Google Ads'
+            price='5,000ETB'
+            img={Google.src}/>
+          <ArticleCard
+            id={4}
+            title='Ad Promo Video'
+            price='4,500ETB'
+            img={PromoVideo.src}/>
+          <ArticleCard
+            id={6}
+            title='Photography'
+            price='2,500ETB'
+            img={PhotoCamera.src}/>
+          <ArticleCard
+            id={5}
+            title='Branding Refresh'
+            price='4,000ETB'
+            img={Branding.src}/>
+          <ArticleCard
+            id={7}
+            title='In person Training'
+            price='8,500ETB'
+            img={Training.src}/>
+          <ArticleCard
+            id={8}
+            title='Website Design'
+            price='20,000ETB'
+            img={Website.src}/>
           <ArticleCard
             id={3}
-            title='Linked In'
+            title='Social Media Management'
             price='7,500ETB'
             img={LinkedIn.src}/>
           <ArticleCard
-            id={4}
-            title='You Tube'
-            price='18,500ETB'
-            img={YouTube.src}/>
-          <ArticleCard
-            id={5}
-            title='TikTok'
-            price='18,500ETB'
-            img={Tictok.src}/>
-          <ArticleCard
-            id={6}
-            title='Google'
-            price='4,500ETB'
-            img={Google.src}/>
-          <ArticleCard
-            id={7}
-            title='Snap Chat'
-            price='13,500ETB'
-            img={SnapChat.src}/>
-          <ArticleCard
-            id={8}
-            title='Pintrest'
-            price='4,500ETB'
-            img={Pintrest.src}/>
-          <ArticleCard
             id={9}
-            title='Telegram'
-            price='4,500ETB'
+            title='New Social Setup'
+            price='25,000ETB'
             img={Telegram.src}/>
           <ArticleCard
             id={10}
-            title='Twitter'
-            price='4,500ETB'
+            title='Influencer Collab'
+            price='40,000ETB'
             img={Twitter.src}/>
       </section>
         <div className='absolute my-auto bottom-1'>

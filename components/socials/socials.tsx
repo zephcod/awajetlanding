@@ -8,19 +8,19 @@ const social_item = [
     {
       id:"1",
       alt:"Awaj Ad Facebook Account",
-      url:"https://www.facebook.com/AwajAIcom",
+      url:"https://www.facebook.com/awajaicom",
       img:"/social/svg/Facebook_icon.svg"
     },
     {
       id:"2",
       alt:"Awaj Ad Instagram Account",
-      url:"https://www.instagram.com/awajaicom",
+      url:"https://www.instagram.com/awajetcom",
       img:"/social/svg/Instagramicon.svg"
     },
     {
       id:"3",
       alt:"Awaj Ad Twitter / X Account",
-      url:"https://twitter.com/AwajAicom",
+      url:"https://twitter.com/awajetcom",
       img:"/social/svg/Twitter_icon.svg"
     },
     {
@@ -32,31 +32,31 @@ const social_item = [
     {
       id:"5",
       alt:"Awaj Ad Pinterest Account",
-      url:"https://www.pinterest.com/AwajAIcom",
+      url:"https://www.pinterest.com/awajetcom",
       img:"/social/svg/Pinterest_icon.svg"
     },
     {
       id:"6",
-      alt:"Awaj Ad Tictok Account",
-      url:"https://www.tiktok.com/@awajai",
+      alt:"Awaj Ad Tiktok Account",
+      url:"https://www.tiktok.com/@awajet",
       img:"/social/svg/Tictok_icon.svg"
     },
     {
       id:"7",
       alt:"Awaj Ad Linked In Account",
-      url:"https://www.linkedin.com/company/awajaicom",
+      url:"https://www.linkedin.com/company/awajetcom",
       img:"/social/svg/Linkedin_icon.svg"
     },
     {
       id:"8",
       alt:"Awaj Ad Telegram Account",
-      url:"http://t.me/awajaicom",
+      url:"https://t.me/awajet",
       img:"/social/svg/Telegram_icon.svg"
     },
     {
       id:"9",
       alt:"Awaj Ad Whatsapp Account",
-      url:"/about",
+      url:"https://wa.me/251903569999",
       img:"/social/svg/Whatsapp_icon.svg"
     },
   ];

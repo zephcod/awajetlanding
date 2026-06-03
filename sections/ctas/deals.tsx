@@ -42,14 +42,14 @@ const DealsSection = () => {
                     <Link href={'/resources/downloads'} className='cursor-pointer'>
                         <Icons.billing className='h-8 w-8 '/>
                     </Link>
-                    <h3 className='text-2xl lg:text-3xl font-bold leading-[1.15]'>Bundled
+                    <h3 className='text-2xl lg:text-3xl font-bold leading-[1.15]'>Package
                     <span className='text-primary'>{' '}Deals{" "}</span></h3>
                 </div>
                 <p className='px-4'>Awaj&apos;s digital marketing bundled deals are carefully tailored to meet specific marketing campaign schemes.</p>
                 <br />
                 <p className='px-4'>The offers include everything needed to create and manage a successful online campaign with guaranteed results. </p>
                 <div className='h-10'></div>
-                <InRoundButton url="/pricing/deals" text="Explore More">
+                <InRoundButton url="/pricing/deals" text="Explore Deals">
                     <span><BsRocketTakeoffFill/></span>
                 </InRoundButton>
             </div>

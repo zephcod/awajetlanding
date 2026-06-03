@@ -18,9 +18,9 @@ export const siteConfig = {
       title: "Pricing",
       items: [
         {
-          title: "Subscriptions",
+          title: "Monthly Plans",
           href: "/pricing",
-          description: "Subscription plans and pricings",
+          description: "Monthly plans and pricings",
           items: [],
         },
         // {
@@ -30,9 +30,9 @@ export const siteConfig = {
         //   items: [],
         // },
         {
-          title: "Bundled Deals",
+          title: "Packages | ጥቅሎች",
           href: "/pricing/deals",
-          description: "Check recent deals from awaj.",
+          description: "Check recent packages",
           items: [],
         },
       ],

@@ -18,17 +18,20 @@ export default function Price(){
     <section className='w-full'>
       <div className={styles.container}>
       <>
-        <h1 className="py-4 text-3xl text-center text-muted-foreground font-extrabold leading-[1.15] lg:text-4xl">
-          Plans tailored to needs.
+        <h1 className="mt-2 py-1 text-3xl text-center text-muted-foreground font-extrabold leading-[1.15] lg:text-4xl">
+          Monthly Plans 
+        </h1>
+        <h1 className="mb-2 py-1 text-3xl text-center text-primary font-extrabold leading-[1.15] lg:text-4xl">
+          ወርሃዊ ጥቅሎች 
         </h1>
         <p className='text-base text-muted-foreground text-center max-w-3xl'>
-          We offer subscription in three packages. 
+          We offer monthly plans in three packages. 
+          Affordable monthly marketing plans designed to help your business grow consistently and sustainably.
           Test Awaj Essential monthly plan and see our services in action! 
-          Our Business and Premium packages will also be available starting from August 2026. 
         </p>
         <br />
         <em className='text-base text-muted-foreground text-center max-w-3xl'>
-          No hidden fees - Everything included.
+          All prices include 15% VAT.
         </em>
         <br/>
       </>
