@@ -47,7 +47,7 @@
     "lib/chapa.js",
     "app/api/chapa/route.ts",
     ".next/dev/types/**/*.ts"
-  ],
+, "components/FacebookPixel.js"  ],
   "exclude": [
     "node_modules"
   ]
