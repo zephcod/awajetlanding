@@ -36,10 +36,10 @@ export default function RootLayout({children,}:{children: React.ReactNode}) {
                       {/* <Chat /> */}
                       {children}
                       </main>
-                      <FacebookPixel/>
                   </div>
               </AuthProvider> 
               </ThemeProvider>
+              <FacebookPixel/>
               <Toaster />
               <Analytics />
               <SpeedInsights/>

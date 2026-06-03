@@ -22,7 +22,8 @@ const FacebookPixel = () => {
         src="@/public/scripts/pixel.js"
         strategy="afterInteractive"
         onLoad={() => setLoaded(true)}
-        data-pixel-id={pixel.FB_PIXEL_ID}
+        // data-pixel-id={pixel.FB_PIXEL_ID}
+        data-pixel-id="2003022780601729"
       />
     </div>
   );

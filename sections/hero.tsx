@@ -1,15 +1,11 @@
-import React from 'react'
 import '@/styles/hero_animation.css'
 import Image from "next/image"
 import styles from '@/sections/page.module.css'
 import Rocket from '@/public/character/awaj_hero.webp'
 import Statue1 from '@/public/landmark/ethiopian_landmark-min.webp'
 import BubbleBg from '@/components/UI/bubble_bg';
-import Link from 'next/link';
-import { buttonVariants } from '@/components/UI/button';
 import CtaHeadline from './ctas/cta_headline';
 import ColorButton from '@/components/button/color_btn';
-import RoundButton from '@/components/button/round';
 import Content from "@/public/awajai_cloud-min.webp"
 import ScrollLink from '@/components/UI/scroll_link'
 import { Icons } from '@/components/UI/icons'
