@@ -19,6 +19,8 @@ export const env = createEnv({
     CHAPA_SECRET:z.string(process.env.CHAPA_SECRET),
     POSTGRES_URL: z.string("postgres://default:6pkql7TQhEYi@ep-withered-poetry-08252282-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb"),
     
+    NEXT_PUBLIC_FACEBOOK_PIXEL_ID: z.string(process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID),
+    
     APPWRITE_ENDPOINT:z.string(process.env.APPWRITE_ENDPOINT),
     APPWRITE_PROJECT:z.string(process.env.APPWRITE_PROJECT),
     APPWRITE_DATABASE:z.string(process.env.APPWRITE_DATABASE),
@@ -42,7 +44,7 @@ export const env = createEnv({
     APPWRITE_P_ENDPOINT:z.string('https://cloud.appwrite.io/v1'),
     APPWRITE_P_PROJECT:z.string('6504c902cef3dc9b138c'),
     APPWRITE_P_DATABASE:z.string('650a05f49ac5d9e273b8'),
-
+    NEXT_PUBLIC_FACEBOOK_PIXEL_ID: z.string(process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID),
     APPWRITE_P_COLLECTION_USER:z.string('650a062ace779e21c647'),
     APPWRITE_P_COLLECTION_SOLUTIONS:z.string('650c8281e11da97327c9'),
     APPWRITE_P_COLLECTION_CAMPAIGNS:z.string('650e36335fababaad21d'),
@@ -76,6 +78,7 @@ export const env = createEnv({
     UPLOADTHING_APP_ID: process.env.UPLOADTHING_APP_ID,
 
     CHAPA_SECRET:process.env.CHAPA_SECRET,
+    NEXT_PUBLIC_FACEBOOK_PIXEL_ID: process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID,
 
     APPWRITE_ENDPOINT:process.env.APPWRITE_ENDPOINT,
     APPWRITE_PROJECT:process.env.APPWRITE_PROJECT,
