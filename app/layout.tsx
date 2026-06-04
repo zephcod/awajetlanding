@@ -10,7 +10,7 @@ import NewHeader from '@/components/layouts/new_header'
 import { ModalProvider } from '@/components/ai/modal-provider'
 import appwriteAuthService from "@/db/appwrite_auth"
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import FacebookPixel from "@/components/FacebookPixel";
+import { FacebookPixel } from "./components";
 
  
 export default function RootLayout({children,}:{children: React.ReactNode}) {
