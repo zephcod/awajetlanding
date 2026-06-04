@@ -10,7 +10,7 @@ import { Toaster } from "@/components/UI/toaster"
 import NewHeader from '@/components/layouts/new_header'
 import { ModalProvider } from '@/components/ai/modal-provider'
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { FacebookPixel } from "./components";
+import FacebookPixel from '@/components/FacebookPixel';
 
  
 export default function RootLayout({children,}:{children: React.ReactNode}) {
@@ -26,7 +26,7 @@ export default function RootLayout({children,}:{children: React.ReactNode}) {
       <html lang="en" className="scroll-smooth" suppressHydrationWarning >
         <Providers>
           <body>
-              <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+              {/* <ThemeProvider attribute="class" defaultTheme="system" enableSystem> */}
               {/* <AuthProvider value={{authStatus, setAuthStatus}}> */}
                   <div className='allparent'>
                     {/* <div>Bluetin</div> */}
@@ -35,11 +35,11 @@ export default function RootLayout({children,}:{children: React.ReactNode}) {
                       <ModalProvider/>
                       {/* <Chat /> */}
                       {children}
-                      <FacebookPixel/>
                       </main>
                   </div>
               {/* </AuthProvider>  */}
-              </ThemeProvider>
+              <FacebookPixel/>
+              {/* </ThemeProvider> */}
               <Toaster />
               <Analytics />
               <SpeedInsights/>
