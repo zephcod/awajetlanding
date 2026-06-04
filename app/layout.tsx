@@ -1,50 +1,12 @@
-// 'use client'
-// import React, {useState, useEffect} from "react"
-// import { AuthProvider } from '@/context/authContext'
-// import appwriteAuthService from "@/db/appwrite_auth"
-import '@/styles/globals.css'
-import { Providers as ThemeProvider } from '@/components/providers'
-import { Analytics } from '@vercel/analytics/react';
-import  Providers from '@/components/chat/chatproviders'
-import { Toaster } from "@/components/UI/toaster"
-import NewHeader from '@/components/layouts/new_header'
-import { ModalProvider } from '@/components/ai/modal-provider'
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import FacebookPixel from '@/components/FacebookPixel';
+import { FacebookPixel } from "./components";
 
- 
-export default function RootLayout({children,}:{children: React.ReactNode}) {
-
-  // const[authStatus, setAuthStatus] = useState(false)
-
-  // useEffect(()=>{
-  //   appwriteAuthService.isLoggedIn()
-  //   .then(setAuthStatus)
-  // }, [])
-
+export default function RootLayout({ children }) {
   return (
-      <html lang="en" className="scroll-smooth" suppressHydrationWarning >
-        {/* <Providers> */}
-          <body>
-              {/* <ThemeProvider attribute="class" defaultTheme="system" enableSystem> */}
-              {/* <AuthProvider value={{authStatus, setAuthStatus}}> */}
-                  <div className='allparent'>
-                    {/* <div>Bluetin</div> */}
-                    <NewHeader/>
-                    <main className="flex-1">
-                      <ModalProvider/>
-                      {/* <Chat /> */}
-                      {children}
-                      </main>
-                  </div>
-              {/* </AuthProvider>  */}
-              <FacebookPixel/>
-              {/* </ThemeProvider> */}
-              <Toaster />
-              <Analytics />
-              <SpeedInsights/>
-          </body>
-        {/* </Providers> */}
-      </html>
-  )
+    <html lang="en">
+      <body>
+        {children}
+        <FacebookPixel />
+      </body>
+    </html>
+  );
 }
