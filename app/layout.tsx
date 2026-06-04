@@ -24,7 +24,7 @@ export default function RootLayout({children,}:{children: React.ReactNode}) {
 
   return (
       <html lang="en" className="scroll-smooth" suppressHydrationWarning >
-        <Providers>
+        {/* <Providers> */}
           <body>
               {/* <ThemeProvider attribute="class" defaultTheme="system" enableSystem> */}
               {/* <AuthProvider value={{authStatus, setAuthStatus}}> */}
@@ -44,7 +44,7 @@ export default function RootLayout({children,}:{children: React.ReactNode}) {
               <Analytics />
               <SpeedInsights/>
           </body>
-        </Providers>
+        {/* </Providers> */}
       </html>
   )
 }
